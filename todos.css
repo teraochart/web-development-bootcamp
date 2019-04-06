@@ -1,0 +1,9 @@
+li {
+	border: 2px solid blue; 
+}
+#special {
+	background-color: orange;
+}
+.done {
+	text-decoration: line-through;
+}
