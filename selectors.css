@@ -1,0 +1,47 @@
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star (Applies to whole page)*/
+
+* {
+	border: 1px solid lightgrey;
+}
+/*Decendent Selector (Nested elements. In example selects all anchor tags inside an li)*/
+
+li a {
+	color: red;
+}
+
+
+/*Adjacent Selector* (Select all elements that come after. Not nested.)*/
+h4 + ul {
+	border: 4px solid red;
+}
+
+
+/*Attribute Selector (Select elements based off of any attribute*/
+
+a [href="http://www.google.com"] {
+	background: blue;
+}
+input [type=text] {
+	background: red;
+}
+
+
+/*nth of type (Select every 5th paragraph, every second li, etc)*/
+
+ul:nth-of-type(3){
+	background: purple;
+}
+
