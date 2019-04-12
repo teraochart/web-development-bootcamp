@@ -1,0 +1,18 @@
+p {
+
+/*Content - Width and Height (px or percentages (percent of parent element))*/
+width: 50%;
+
+/*Border*/
+border: 2px solid green;
+
+/*Padding */
+padding-left: 10px;
+
+/*Margin margin: top right bottom left*/
+/*margin: 20px 40px 150px 100px;*/
+/*margin: 0 auto 0 auto; */
+/*(the same as margin: 0 auto,)*/
+margin: 50px auto;
+
+}
