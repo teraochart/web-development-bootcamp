@@ -20,3 +20,18 @@ body {
     font-size: 1.5rem;
 }
 
+#headingGroup span {
+    color:#ABE1AB;
+}
+
+#headingGroup h1 {
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+@media (max-width:1400px) {
+    #headingGroup h1 {
+        font-weight: 200;
+        font-size: 2rem;
+    }
+}
